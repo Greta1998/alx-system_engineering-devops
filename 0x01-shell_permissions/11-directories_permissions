@@ -1,2 +1,2 @@
-#!/bin/sh
-chmod -R 777
+#!/bin/bash
+chmod +x *
