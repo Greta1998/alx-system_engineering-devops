@@ -1,2 +1,2 @@
 #!/bin/bash
-awk 'NR % 2 == 1'
+while IFS= read -r line1; do read -r line2; echo "$line1"; done < "$1"
